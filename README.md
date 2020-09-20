@@ -8,7 +8,6 @@ For installation the service you must run the following commands
 
 - `git clone git@github.com:blue-factory/ip-syncer.git`: Command used to clone repository.
 - `cp .sample-env .env`: Command used to copy base for environment values. Complete this.
-- `make install`: Command used to install all dependencies.
 - `make configure`: Command used to configure service.
 
 ## Local environment 💻
