@@ -43,7 +43,7 @@ REGISTRY_CONTAINER_NAME=$(REGISTRY_URL)/$(CONTAINER_NAME)
 # TARGETS
 #
 configure:
-	@echo "[configure] Configuring service for..."
+	@echo "[configure] Configuring service..."
 	@kubectl create configmap $(SVC)-env --from-env-file=.env || true
 	@kubectl create configmap $(SVC)-env --from-env-file=.env -o yaml --dry-run | kubectl replace -f -
 
