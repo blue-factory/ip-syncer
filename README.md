@@ -4,6 +4,8 @@ This service is a Kubernetes cronjob that renews the public IP in a record on Cl
 
 Every minute the cronjob will ask using dig command which is the public ip, and then update it in the DNS administrator.
 
+The solution is cross-platform so it can be used in `arm` or `amd64` architectures.
+
 ## Installation
 
 For installation the service you must run the following commands
