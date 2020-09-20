@@ -93,4 +93,4 @@ destroy:
 	@kubectl delete -f infra/$(SVC).yaml
 	@kubectl delete configmap $(SVC)-env
 
-.PHONY: clean c run r build b linux l docker d docker-login dl push p 
+.PHONY: configure clean c run r build b docker docker-run docker-login docker-push deploy destroy
