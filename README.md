@@ -16,13 +16,15 @@ For installation the service you must run the following commands
 
 - `make run`: command used to run the service.
 
-_note_: always check if `.env` values are correct for `local` environment.
+_note_: always check if `.env` values are valid to use in `local` environment.
 
 ## Cloud environment ☁️
 
 ### Deploying service 🚀
 
 - `make deploy`: command used to transpile all typescript files to javascript files. After to run this command will be copy the graphql and seeds files.
+
+_note_: always check if `.env` values are valid to use in `development|staging|production` environment.
 
 ### Destroy service 💥
 
