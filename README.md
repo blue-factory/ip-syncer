@@ -26,7 +26,7 @@ _note_: always check if `.env` values are valid to use in `local` environment.
 
 ### Deploying service 🚀
 
-- `make deploy`: command used to transpile all typescript files to javascript files. After to run this command will be copy the graphql and seeds files.
+- `make deploy`: command used to compile the Dockerfile, push in the registry and update YAML file in Kubernetes cluster
 
 _note_: always check if `.env` values are valid to use in `development|staging|production` environment.
 
