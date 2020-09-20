@@ -1,6 +1,6 @@
 # IP Syncer
 
-This service is a Kubernetes cronjob responsible for renewing the public IP to a record in Cloudflare's DNS.
+This service is a Kubernetes cronjob that renews the public IP in a record on Cloudflare's DNS service.
 
 Every minute the cronjob will ask using dig command which is the public ip, and then update it in the DNS administrator.
 
