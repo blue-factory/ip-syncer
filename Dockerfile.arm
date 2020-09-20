@@ -1,0 +1,9 @@
+FROM balenalib/raspberrypi3-alpine
+
+WORKDIR /app
+
+RUN apk add --no-cache bind-tools
+
+COPY bin .
+
+CMD "./$SVC"
