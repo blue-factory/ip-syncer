@@ -1,0 +1,17 @@
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: ip-syncer
+spec:
+  schedule: "*/1 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            - name: ip-syncer
+              image: cagodoy/ip-syncer:1.0.3
+              envFrom:
+                - configMapRef:
+                    name: ip-syncer-env
+          restartPolicy: Never
