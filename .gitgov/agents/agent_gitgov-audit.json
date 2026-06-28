@@ -1,0 +1,46 @@
+{
+  "header": {
+    "version": "1.0",
+    "type": "agent",
+    "payloadChecksum": "10a84294f94fda476bdaab93f6a05c9edb8c7da2bea66d001992da212b0105cb",
+    "signatures": [
+      {
+        "keyId": "agent:gitgov-audit",
+        "role": "author",
+        "notes": "Agent registration",
+        "signature": "DDGo5xy066ENE84acV6qJQVLBObTf6lla4xVOIOLwpl1pwJdeMEZCMKMkWOfAZKBFED0HUe+P9kCKzZc0YcXDQ==",
+        "timestamp": 1782657952
+      }
+    ]
+  },
+  "payload": {
+    "id": "agent:gitgov-audit",
+    "engine": {
+      "type": "local",
+      "runtime": "typescript",
+      "entrypoint": "packages/core/dist/index.mjs",
+      "function": "orchestrateAudit"
+    },
+    "status": "active",
+    "triggers": [
+      {
+        "type": "manual",
+        "command": "gitgov audit"
+      },
+      {
+        "type": "webhook",
+        "event": "pull_request.opened"
+      },
+      {
+        "type": "webhook",
+        "event": "pull_request.synchronize"
+      }
+    ],
+    "knowledge_dependencies": [],
+    "prompt_engine_requirements": {},
+    "metadata": {
+      "description": "Product agent — signs automated TaskRecords",
+      "purpose": "orchestration"
+    }
+  }
+}

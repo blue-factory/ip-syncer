@@ -1,0 +1,30 @@
+{
+  "header": {
+    "version": "1.0",
+    "type": "actor",
+    "payloadChecksum": "d71719ed4f048db3cee1ada0c60ec4f4e0e5b26e4c23b8805a8116382707a836",
+    "signatures": [
+      {
+        "keyId": "agent:security-audit",
+        "role": "author",
+        "notes": "Actor registration",
+        "signature": "rFIMyWMLGhYBg2EnK8Qff79C2exGDo8wbRT6IGmfpIjlYQQXDHioNHjNGOVs87Cs3UAy6yG1IXERndEZnpaOCg==",
+        "timestamp": 1782657952
+      }
+    ]
+  },
+  "payload": {
+    "id": "agent:security-audit",
+    "type": "agent",
+    "displayName": "Security Audit",
+    "publicKey": "2WaH9nOHyt00V3uGOWzzrB597HTUAI6Lhw09uJ0ZTM0=",
+    "roles": [
+      "specialist"
+    ],
+    "status": "active",
+    "metadata": {
+      "joinedVia": "cli",
+      "joinedAt": "2026-06-28T14:45:52.575Z"
+    }
+  }
+}

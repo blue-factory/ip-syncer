@@ -1,0 +1,10 @@
+{
+  "protocolVersion": "1.0.0",
+  "projectId": "ip-syncer",
+  "projectName": "ip-syncer",
+  "rootCycle": "0000000000-cycle-root",
+  "saasUrl": "http://localhost:3001",
+  "state": {
+    "branch": "gitgov-state"
+  }
+}

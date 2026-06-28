@@ -1,0 +1,4 @@
+# Security: prevent private keys and local files from being committed
+*.key
+.session.json
+index.json
