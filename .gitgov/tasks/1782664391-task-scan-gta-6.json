@@ -1,0 +1,24 @@
+{
+  "header": {
+    "version": "1.0",
+    "type": "task",
+    "payloadChecksum": "d1060540bc6f753701401d7c328d2db5bc3fe92c5542d19c773099eca1aa7dde",
+    "signatures": [
+      {
+        "keyId": "human:cagodoy",
+        "role": "author",
+        "notes": "Manual scan requested by human:cagodoy",
+        "signature": "+i16VvnurEdV0nnv3CTsqy1IsjJ+vwc3vzm74Lrj4gsb2Wg5OP+EvIFISlQOfPTv/j4eaLrYDfFj0ixp/9QnBQ==",
+        "timestamp": 1782664391
+      }
+    ]
+  },
+  "payload": {
+    "id": "1782664391-task-scan-gta-6",
+    "title": "Scan GTA-6",
+    "status": "active",
+    "priority": "high",
+    "description": "Automated scan for repository cmqxtyyua002en9jhjmvry8x6",
+    "tags": []
+  }
+}
