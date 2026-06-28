@@ -2,14 +2,14 @@
   "header": {
     "version": "1.0",
     "type": "actor",
-    "payloadChecksum": "481fbee19486b80540228fbc67af7cf1d293326c12b5d3a54b8cbc26e103e1e9",
+    "payloadChecksum": "5eac60994129063a981c8f247f2bbd4806ba7ddb89ea0b7f575c4fce0a5758af",
     "signatures": [
       {
         "keyId": "human:cagodoy",
         "role": "author",
-        "notes": "Actor registration",
-        "signature": "KTPzBhlxtsDYYWVQuwXQK+fYZts4QELMQ5sm0EUxb8MCvr7AhFrnJxz8A3hPWqmbpbsOB77U9uPluC+yjroCBA==",
-        "timestamp": 1782657951
+        "notes": "Role sync from GitHub (repo-load)",
+        "signature": "AT/tIL8F6rlnjHL0EZjxe5y09kAPDpeyUO5vD+6Rm5oEwLq1c+1hBhA9RRD+FeM9yzewSsXzuxggnl1VJOKPBQ==",
+        "timestamp": 1782658096
       }
     ]
   },
@@ -19,11 +19,7 @@
     "displayName": "cagodoy",
     "publicKey": "8f72HloPZT1RptEXLTYuFG/yaVHn227IA3kO3t3G/nY=",
     "roles": [
-      "admin",
-      "author",
-      "approver:product",
-      "approver:quality",
-      "developer"
+      "admin"
     ],
     "status": "active",
     "metadata": {
