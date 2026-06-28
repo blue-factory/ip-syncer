@@ -1,0 +1,24 @@
+{
+  "header": {
+    "version": "1.0",
+    "type": "task",
+    "payloadChecksum": "3746496c1af4ac431275c14c45d918df63e15c50c8dac66d54d665c8a0742ca3",
+    "signatures": [
+      {
+        "keyId": "human:cagodoy",
+        "role": "author",
+        "notes": "Manual scan requested by human:cagodoy",
+        "signature": "QxFwA4/AR9VXtEV2E9R1Q+WOIUl+YvNm6HoO41JwRYr0vCIeNAE2yNufdrnxIpnFY0lHDByGtrA/XqZdS4HnCg==",
+        "timestamp": 1782664057
+      }
+    ]
+  },
+  "payload": {
+    "id": "1782664057-task-scan-gta-4",
+    "title": "Scan GTA-4",
+    "status": "active",
+    "priority": "high",
+    "description": "Automated scan for repository cmqxtyyua002en9jhjmvry8x6",
+    "tags": []
+  }
+}
