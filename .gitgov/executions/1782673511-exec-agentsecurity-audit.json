@@ -1,0 +1,102 @@
+{
+  "header": {
+    "version": "1.0",
+    "type": "execution",
+    "payloadChecksum": "b778e807a0a26a4d3fb552ec662e071d35cb5558b6880c3f2815251cde410282",
+    "signatures": [
+      {
+        "keyId": "human:cagodoy",
+        "role": "author",
+        "notes": "L1 agent:security-audit",
+        "signature": "3HGWwIYkD+y2yWmYC7/nN/SOZrpxmGarVDhyI0/064NT12Uex4fgf3wIt2nFaTnEA/hlDX9lMNar+XofQOidCg==",
+        "timestamp": 1782673513
+      }
+    ]
+  },
+  "payload": {
+    "id": "1782673511-exec-agentsecurity-audit",
+    "taskId": "1782673503-task-scan-gta-8",
+    "result": "Scan completed (L1 redacted)",
+    "type": "completion",
+    "title": "Agent execution: agent:security-audit",
+    "metadata": {
+      "agentId": "agent:security-audit",
+      "kind": "sarif",
+      "data": {
+        "$schema": "https://docs.oasis-open.org/sarif/sarif/v2.1.0/errata01/os/schemas/sarif-schema-2.1.0.json",
+        "version": "2.1.0",
+        "runs": [
+          {
+            "tool": {
+              "driver": {
+                "name": "gitgov-security-audit",
+                "version": "1.0.0",
+                "informationUri": "https://gitgovernance.com/agents/security-audit",
+                "rules": [
+                  {
+                    "id": "PII-001",
+                    "shortDescription": {
+                      "text": "Email address detected in source code"
+                    },
+                    "fullDescription": {
+                      "text": "Move to configuration or environment variable"
+                    },
+                    "helpUri": "https://gitgovernance.com/rules/PII-001"
+                  }
+                ]
+              }
+            },
+            "results": [
+              {
+                "ruleId": "PII-001",
+                "level": "error",
+                "message": {
+                  "text": "Email address detected in source code"
+                },
+                "locations": [
+                  {
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "README.md"
+                      },
+                      "region": {
+                        "startLine": 13,
+                        "snippet": {
+                          "text": "[REDACTED]"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "properties": {
+                  "gitgov/category": "pii-email",
+                  "gitgov/detector": "regex",
+                  "gitgov/confidence": 1,
+                  "gitgov/taskId": "1782673503-task-scan-gta-8",
+                  "gitgov/legalReference": "GDPR Art. 4(1)",
+                  "gitgov/snippetHash": "e2bac05a75a8d3fb66f835a5b66a5e1a797e046ff706d1bf14687afeec845f2b"
+                },
+                "partialFingerprints": {
+                  "primaryLocationLineHash/v1": "e2bac05a75a8d3fb:1"
+                }
+              }
+            ],
+            "properties": {
+              "gitgov/agentId": "agent:security-audit",
+              "gitgov/scanScope": "full",
+              "gitgov/scannedFiles": 6,
+              "gitgov/scannedLines": 262
+            },
+            "versionControlProvenance": [
+              {
+                "repositoryUri": "https://github.com/blue-factory/ip-syncer",
+                "revisionId": "76d924c21378eabde28306a9a95781cde60d4994",
+                "branch": "master"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

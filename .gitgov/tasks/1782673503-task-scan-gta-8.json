@@ -1,0 +1,24 @@
+{
+  "header": {
+    "version": "1.0",
+    "type": "task",
+    "payloadChecksum": "7671d6b0d1e718da3022bfd6b79c6d3c1a8a020e8de35fecb7af03314c163328",
+    "signatures": [
+      {
+        "keyId": "human:cagodoy",
+        "role": "author",
+        "notes": "Manual scan requested by human:cagodoy",
+        "signature": "ccfWJBJ5UGWIbsrQy9nlspD1x6zD7nD+3DkJ6qwGX4Wa3ZQJk73MVJ2dtQRrNpYpTSanntwpJF+P/bf9nIM1CA==",
+        "timestamp": 1782673503
+      }
+    ]
+  },
+  "payload": {
+    "id": "1782673503-task-scan-gta-8",
+    "title": "Scan GTA-8",
+    "status": "active",
+    "priority": "high",
+    "description": "Automated scan for repository cmqxtyyua002en9jhjmvry8x6",
+    "tags": []
+  }
+}
